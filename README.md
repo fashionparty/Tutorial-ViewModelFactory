@@ -11,7 +11,7 @@ class MainViewModel(argument: String): ViewModel()
 
 *MainActivity.kt*
 ```
-val vm = ViewModelProvider(this)[MainViewModel::class.java]
+val vm = ViewModelProvider(this)[MainViewModel::class.java] // błąd, nie przekazaliśmy wymaganego argumentu
 ```
 
 
